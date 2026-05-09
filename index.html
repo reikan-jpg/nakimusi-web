@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>泣き虫ボット - 公式サポート & ガイド</title>
+    <style>
+        :root {
+            --primary-color: #5865F2; /* Discord Blurple */
+            --accent-color: #eb459e;
+            --bg-color: #f4f4f9;
+            --card-bg: #ffffff;
+        }
+        body { font-family: 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #333; max-width: 900px; margin: 0 auto; padding: 20px; background-color: var(--bg-color); }
+        
+        /* ヘッダーセクション */
+        .header { text-align: center; padding: 40px 20px; background: linear-gradient(135deg, var(--primary-color), #404eed); color: white; border-radius: 15px; margin-bottom: 30px; box-shadow: 0 4px 15px rgba(88, 101, 242, 0.3); }
+        .header h1 { margin: 0; font-size: 2.5em; }
+        .header p { opacity: 0.9; font-size: 1.1em; }
+
+        /* 招待ボタン */
+        .btn-container { text-align: center; margin: 20px 0; }
+        .btn { display: inline-block; padding: 15px 30px; background-color: white; color: var(--primary-color); text-decoration: none; font-weight: bold; border-radius: 50px; transition: transform 0.2s, box-shadow 0.2s; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
+        .btn:hover { transform: translateY(-3px); box-shadow: 0 6px 15px rgba(0,0,0,0.15); }
+
+        /* セクションタイトル */
+        h2 { color: var(--primary-color); border-left: 5px solid var(--primary-color); padding-left: 15px; margin-top: 40px; }
+
+        /* コマンドカード */
+        .command-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 15px; }
+        .command-card { background: var(--card-bg); padding: 20px; border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.05); border-top: 4px solid var(--accent-color); }
+        .command-name { font-weight: bold; color: var(--accent-color); font-size: 1.2em; font-family: monospace; }
+        
+        /* インフォメーションボックス */
+        .info-box { background: #e7f3ff; border: 1px solid #b3d7ff; padding: 20px; border-radius: 10px; margin-top: 30px; }
+        .info-box h3 { margin-top: 0; color: #0056b3; }
+
+        .footer { text-align: center; margin-top: 50px; font-size: 0.9em; color: #888; padding-bottom: 30px; }
+        a { color: var(--primary-color); text-decoration: none; }
+        a:hover { text-decoration: underline; }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <h1>泣き虫ボット</h1>
+        <p>最強の荒らし対策ボットで、あなたのサーバーを鉄壁の守りに。</p>
+        <div class="btn-container">
+            <a href="https://discord.gg/wXEgQ8SZg8" class="btn" target="_blank">💬 公式サポートサーバーに参加</a>
+        </div>
+    </div>
+
+    <section>
+        <p style="text-align: center; font-size: 1.2em; font-weight: bold;">
+            自分のサーバーを守りたい管理者のための、多機能セキュリティボットを開発しました！
+        </p>
+    </section>
+
+    <h2>🛡️ アンチ機能（セキュリティ）</h2>
+    <div class="command-grid">
+        <div class="command-card">
+            <div class="command-name">/antispam</div>
+            <p>3回以上の同じメッセージを即座に自動削除します。</p>
+        </div>
+        <div class="command-card">
+            <div class="command-name">/antilink</div>
+            <p>短縮リンク、荒らし系リンクなど、全てのリンクを削除します。</p>
+        </div>
+        <div class="command-card">
+            <div class="command-name">/antityoubun</div>
+            <p>200文字以上のメッセージを即座に排除します。</p>
+        </div>
+        <div class="command-card">
+            <div class="command-name">/antito</div>
+            <p>短縮リンクやサーバー招待リンクを送信したユーザーを自動タイムアウトします。</p>
+        </div>
+    </div>
+
+    <h2>⚙️ 管理・便利機能</h2>
+    <div class="command-grid">
+        <div class="command-card" style="border-top-color: var(--primary-color);">
+            <div class="command-name">/setlog</div>
+            <p>【管理者専用】サーバーの監視ログチャンネルを自動で作成します。</p>
+        </div>
+        <div class="command-card" style="border-top-color: var(--primary-color);">
+            <div class="command-name">/rolepanel</div>
+            <p>ボタン一つでロールを付与・解除できるパネルを設置します。</p>
+        </div>
+        <div class="command-card" style="border-top-color: var(--primary-color);">
+            <div class="command-name">/announce</div>
+            <p>綺麗な埋め込み形式で告知を送信します。</p>
+        </div>
+        <div class="command-card" style="border-top-color: var(--primary-color);">
+            <div class="command-name">/clear</div>
+            <p>1〜100件のメッセージを一括で掃除します。</p>
+        </div>
+    </div>
+
+    <div class="info-box">
+        <h3>💡 サポートサーバーでは:</h3>
+        <ul>
+            <li>ボットの最新アップデート情報の公開</li>
+            <li>導入方法や設定のサポート</li>
+            <li>バグ報告・機能リクエストの受付</li>
+        </ul>
+        <p>24時間稼働の安定したセキュリティをあなたのサーバーにも。ボットの招待リンクはサポートサーバー内に用意しています！</p>
+    </div>
+
+    <div class="footer">
+        <p>&copy; 2026 泣き虫ボット Project | <a href="#">プライバシーポリシー</a> | <a href="#">利用規約</a></p>
+    </div>
+
+</body>
+</html>
